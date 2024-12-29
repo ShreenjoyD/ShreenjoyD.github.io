@@ -1,0 +1,202 @@
+
+.lia a{
+    font-size: 27px;
+    color: blueviolet;
+    margin-left: 60px;
+}
+
+.lia a:hover{
+    color: rgb(255, 208, 0);
+}
+
+.tbutton{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+
+.myintro{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-top: 100px;
+    width: 400px;
+    height: 200px;
+}
+
+.myintro > div{
+    width: 400px;
+    height: 400px;
+}
+
+.mystatement{
+    font-size: 1.2rem;
+}
+
+.userimg{
+    margin-left: 120px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    box-shadow: 80px 80px 5px rgba(250, 184, 4, 0.925);
+}
+
+.userimg img{
+    width: 300px;
+    height: 500px;
+}
+
+.mycontainer{
+    display: flex;
+}
+
+.myskills img{
+    width: 150px;
+    height: 100px;
+}
+
+.pro{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.myskills{
+    margin-bottom: 250px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.prohead{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.myprojects{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 150px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.myinfo{
+    width: 30%;
+    margin: auto;
+}
+
+.myinfo *{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.contactdetails{
+    margin: 50px 0px 20px 0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contacticons{
+    width: 200px;
+    margin: 0px auto 100px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+    .mylogo{
+        width: 80%;
+    }
+
+    .pro{
+        margin-top: 400px;
+    }
+
+    .prohead{
+        margin-bottom: 70px;
+    }
+
+    .mycontainer{
+        flex-direction: column-reverse;
+    }
+
+    .myintro{
+        margin-left: -5px;
+        text-align: center;
+        padding-top: 180px;
+    }
+
+    .userimg {
+        width: 80%;
+        margin: auto;
+    }
+
+    .myskills{
+        grid-template-columns: auto auto;
+    }
+
+    .item11{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .item4{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .item5{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .item6{
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .item8{
+        grid-area: 6 / 2 / 7 / 3;
+    }
+
+    .item12{
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .item13{
+        grid-area: 4 / 2 / 5 / 3;
+    }
+
+    .item14{
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .item9{
+        grid-area: 5 / 2 / 6 / 3;
+    }
+
+    .item7{
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    .item15{
+        grid-area: 7 / 2 / 8 / 3;
+    }
+
+    .item10{
+        grid-area: 8 / 1 / 9 / 2;
+    }
+
+    .myprojects{
+        height: 700px;
+        grid-template-columns: auto;
+        align-content: space-between;
+    }
+
+    .myinfo{
+        width: 90%;
+    }
+}
